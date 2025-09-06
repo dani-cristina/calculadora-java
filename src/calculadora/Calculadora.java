@@ -19,4 +19,8 @@ public class Calculadora {
         }
         return a / b;
     }
+
+        public double exponenciar(double base, double expoente) {
+            return Math.pow(base, expoente);
+        }
 }
